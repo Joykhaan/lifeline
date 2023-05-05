@@ -15,6 +15,7 @@ import BlogsCards from "@/components/BlogsCards/BlogsCards";
 
 
 import Head from "next/head";
+import Question from "@/components/questions/Question";
 
 // const inter = Inter({ subsets: ["latin"] });
 
@@ -70,7 +71,9 @@ export default function Home({blogs}) {
       } 
       </div>
       </div>
-
+{/* 
+      <Question></Question> */}
+      <Review></Review>
       <Contact></Contact>
       {/* <ContactForm></ContactForm> */}
       {/* This is Foolter Section */}
